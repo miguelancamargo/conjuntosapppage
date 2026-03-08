@@ -29,6 +29,7 @@ export default function Navbar() {
                     <li><button onClick={() => scrollTo('funciones')}>Funciones</button></li>
                     <li><button onClick={() => scrollTo('precios')}>Precios</button></li>
                     <li><Link to="/preguntas-frecuentes" onClick={() => setMobileOpen(false)}>FAQ</Link></li>
+                    <li><Link to="/politica-privacidad" onClick={() => setMobileOpen(false)}>Privacidad</Link></li>
                     <li><a href="https://wa.me/573057650946" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)}>Contacto</a></li>
                 </ul>
 
