@@ -53,6 +53,10 @@ export default function Footer() {
                 </div>
             </div>
 
+            <div className="footer-trust">
+                <p>🛡️ Tus datos están seguros, utilizamos tecnología de <span className="google-text"><span className="g1">G</span><span className="o1">o</span><span className="o2">o</span><span className="g2">g</span><span className="l">l</span><span className="e">e</span></span></p>
+            </div>
+
             <div className="footer-bottom">
                 <span>© {currentYear} ConjuntosApp. Todos los derechos reservados.</span>
                 <span>ConjuntosApp® · Sin contratos ocultos</span>
