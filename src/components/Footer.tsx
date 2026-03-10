@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Footer() {
     const currentYear = new Date().getFullYear();
 
@@ -32,7 +34,7 @@ export default function Footer() {
                     <ul>
                         <li><button onClick={() => scrollTo('funciones')}>Funcionalidades</button></li>
                         <li><button onClick={() => scrollTo('precios')}>Planes y Precios</button></li>
-                        <li><a href="/preguntas-frecuentes">Preguntas Frecuentes</a></li>
+                        <li><Link to="/preguntas-frecuentes">Preguntas Frecuentes</Link></li>
                     </ul>
                 </div>
 

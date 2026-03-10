@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
 import Pricing from '../components/Pricing';
@@ -43,9 +44,9 @@ export default function Home() {
                         >
                             💬 Hablar con un agente
                         </a>
-                        <a href="/preguntas-frecuentes" className="btn btn-outline btn-lg">
+                        <Link to="/preguntas-frecuentes" className="btn btn-outline btn-lg">
                             Ver FAQ
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>
